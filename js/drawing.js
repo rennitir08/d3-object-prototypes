@@ -22,7 +22,7 @@ function enableDrawing() {
 }
 
 function growBoxes() {
-    document.addEventListener('mousedown', function(e) { // why doesn't it work with 'click' ?? 
+    document.addEventListener('mousedown', function(e) { 
             if (e.target.nodeName === 'DIV') {
                 e.target.style.width = '15px';
                 e.target.style.height = '15px';
