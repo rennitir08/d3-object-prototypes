@@ -1,8 +1,9 @@
+// DOM = Document Object Model
 growBoxes();
 enableDrawing();
 
 function enableDrawing() {
-    document.addEventListener('mousedown', function(e) {
+    document.addEventListener('mousemove', function(e) {
         console.log(e);
         var red = Math.floor(Math.random()*255);
         var green = Math.floor(Math.random()*255);
